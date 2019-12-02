@@ -1,0 +1,20 @@
+1) git init
+2) npm init -y
+3)Crear carpeta src y public
+4)Creat index.html en  public
+5) npm i react react-dom
+6) Crear index.js en src
+
+//Webpack babel
+7) npm install @babel/core babel-loader @babel/preset-env @babel/preset-react --save -dev
+8) Crear .babelrc
+9) npm install webpack webpack-cli html-webpack-plugin html-loader
+
+//Webpack dev
+10) npm install webpack-dev-server --save -dev 
+
+//Sass
+11) pm install mini-css-extract-plugin css-loader node-sass sass-loader --save -dev
+
+//eslint
+12) npm install eslint babel-eslint eslint-config-airbnb eslint-plugin-import eslint-plugin-react eslint-plugin-jsx-a11y 
