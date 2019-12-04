@@ -41,7 +41,9 @@ header{
 .header__menu--profile img{
     margin: 0 8px 0 0;
     width: 40px;
+    border-radius: 100%;
     display: flex;
+    object-fit: cover;
 }
 .header__menu--profile p{
     margin: 0;

@@ -7,7 +7,8 @@ module.exports = {
     entry: './src/index.js', //archivo de entrada index,js (src)
     output:{
         path: path.resolve(__dirname, 'dist'), //Donde se irán los archivos compilados con webpack
-        filename: 'bundle.js' //Nombre del archivo resultante
+        filename: 'bundle.js', //Nombre del archivo resultante
+        publicPath: '/'
     },
     resolve:{
         extensions: ['.js', '.jsx'], //Archivos que va a compilar
@@ -51,6 +52,9 @@ module.exports = {
                 ]
             }
         ]
+    },
+    devServer: {
+        historyApiFallback: true
     },
     plugins:[
         new HtmlWebpackPlugin({
